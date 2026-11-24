@@ -12,6 +12,13 @@ Define the subproblem as "all sentences for the suffix starting at i" — a *set
 
 **Complexity:** output-bound exponential worst case; memoization removes recomputation, not the output's size.
 
+## Visual walkthrough
+
+Read the picture top to bottom — each numbered frame is one moment of the algorithm
+running on this repo's test example.
+
+![Step-by-step visual walkthrough](viz.svg)
+
 ## Run
 
     go test ./...   # verify
